@@ -3,6 +3,11 @@ build/
 install/
 log/
 
+# Temporary / helper scripts
+check_images.py
+resize_images.py
+test_model.py
+
 # Python cache
 __pycache__/
 *.pyc
