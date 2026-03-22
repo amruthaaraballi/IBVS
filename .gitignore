@@ -1,0 +1,17 @@
+# ROS2 build files
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# YOLO training outputs
+runs/
+
+# Output images (optional, remove if you want to show results)
+# output/
+
+# OS files
+.DS_Store
