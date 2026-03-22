@@ -28,16 +28,16 @@ Traditional depth sensors often fail with sparse structures (e.g., thin rods), s
 - Gate center: (gx, gy)
 
 Error calculation:
-# 🚀 IBVS-Based Gate Navigation for ROV
+# IBVS-Based Gate Navigation for ROV
 
-## 📌 Project Overview
+## Project Overview
 This project implements **Image-Based Visual Servoing (IBVS)** for an underwater Remotely Operated Vehicle (ROV) to handle **sparse objects** such as gates.
 
 Traditional depth sensors often fail with sparse structures (e.g., thin rods), so this system prioritizes **vision-based control** using a trained YOLOv8 model.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 - Detect gates using computer vision
 - Compute image-based error
 - Generate control commands (vx, vy)
@@ -97,7 +97,6 @@ vy = -k*ey
 
 
 ### 3. Decision Logic
-```python
 if gate_detected:
     align_to_gate()
     if aligned:
